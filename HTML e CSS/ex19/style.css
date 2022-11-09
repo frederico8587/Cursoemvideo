@@ -1,0 +1,41 @@
+@charset "utf-8";
+
+/*
+em html 'id' é = a '#' no css (Só pode em um elemento)
+em html 'css' é = a '.' no css (Pode em vários elementos)
+
+
+*/
+
+body{
+    background-color: #0D2473;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1{
+    color:#6486F4 ;
+    
+    
+}
+
+h1#principal{
+    text-align: center;
+    background-color:#153DBF ;
+    color: #6486F4 ;
+    
+}
+h2{
+    color: #1B4DF3;
+}
+.basico{
+    color:#1B4DF3 ;
+}
+.intermediario{
+    color: #f3b91b;
+}
+.avancado{
+    color: #a0f31b;
+}
+p{
+    color: #99aceb;
+}

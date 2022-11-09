@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width , initial-scale=1.0">
+    <link rel="shortcut icon" href="imagens/thumb-1.png" type="image/x-icon">
+    <title>Videos com html 5 </title>
+    <style>
+        body{
+            background-color: black;
+            margin: 0;
+        }
+        h1{
+            margin-top: 0px;
+            text-align: center;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            font-size: 1.5em;
+            color: whitesmoke;
+            background-color: lightslategray;
+        }
+        p{
+            text-align: center;
+            color: white;
+        }
+        video{
+            text-align: center;
+            display: block;
+            margin: auto;
+        }
+        iframe{
+            margin: auto;
+            display: block;
+        }
+    </style>
+    </head>
+    <body>
+        
+        <h1>Colocando videos no site</h1>
+        <p>estou colocando videos no meu site usando html5</p>
+
+        <video src="media/Video1.m4v" controls width="500px"></video> <!--MANEIRA SIMPLES DE COLOCAR VIDEO NO SITE-->
+
+        <h1>essa é outra maneira de colocar video</h1>
+        <p>video abaixo </p>
+
+
+
+        <video width="500px" poster="imagens/thumb-1.png" controls>
+
+            <source src="media/Video1.mp4" type="video/mp4"><!--esse metodo é usado caso o navegador não seja compativel com o formato do video-->
+            <source src="media/video1.m4v" type="video/mp4">
+            <source src="media/Video1.webm" type="video/webm">
+
+            <p>Seu navegador não é compativel com o video</p>
+
+
+
+        </video>
+
+        <h1>Video do youtube</h1>
+        <p>abaixo video do youtube usando a tag iframe</p>
+        <iframe src="https://www.youtube.com/embed/3hng-hmSv2Y" frameborder="0" width="500" height="500" allowfullscreen></iframe> <!--tag iframe usada para colocar videos do youtube ou outra plataforma de video-->
+        
+    
+
+    </body>
+
+</html>
